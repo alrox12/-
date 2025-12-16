@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторные работы по ЗИ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Лабораторные работы по Защите информациии</h1>
+        
+        <!-- Навигация между лабораторными работами -->
+        <div class="navigation">
+            <button class="nav-btn active" data-target="lab1">Лаб 1</button>
+            <button class="nav-btn" data-target="lab2">Лаб 2</button>
+            <button class="nav-btn" data-target="lab3">Лаб 3</button>
+            <button class="nav-btn" data-target="lab4">Лаб 4</button>
+        </div>
+        
+        <div id="lab-content">
+            <!-- Содержимое лабораторных работ будет загружаться сюда -->
+        </div>
+    </div>
+    
+    <!-- Подключение JavaScript файлов -->
+    <script src="utils.js"></script>
+    <script src="lab1.js"></script>
+    <script src="lab2.js"></script>
+    <script src="lab3.js"></script>
+    <script src="lab4.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
